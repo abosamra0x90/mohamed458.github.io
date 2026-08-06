@@ -9,7 +9,6 @@
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-baseurl: "/mohamed458.github.io"
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
@@ -22,8 +21,8 @@ title_separator          : "-"
 subtitle                 : "Malware Analysis & Reverse Engineering"
 name                     : "Mohamed Samir"
 description              : "Malware Analysis & Reverse Engineering"
-url                      : "https://abosamra0x90.github.io"
-baseurl                  : "/mohamed458.github.io"
+url                      : "https://mohamed458.github.io"
+baseurl                  : ""
 repository               : "mohamed458.github.io/"
 teaser                   : "/assets/images/500x300.png"
 logo                     : "/assets/images/site_data/logo.png"
