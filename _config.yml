@@ -14,42 +14,6 @@ baseurl: "/mohamed458.github.io"
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-on:
-  push:
-    branches:
-      - main
-      - release/*
-  pull_request:
-    branches:
-      - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '2.7'
-
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install
-
-      - name: Build the site with Jekyll
-        run: |
-          bundle exec jekyll build
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
 
 # Site Settings
 locale                   : "en-US"
@@ -58,7 +22,7 @@ title_separator          : "-"
 subtitle                 : "Malware Analysis & Reverse Engineering"
 name                     : "Mohamed Samir"
 description              : "Malware Analysis & Reverse Engineering"
-url                      : "https://abosamra0x90.github.io/mohamed458.github.io"
+url                      : "https://abosamra0x90.github.io"
 baseurl                  : "/mohamed458.github.io"
 repository               : "mohamed458.github.io/"
 teaser                   : "/assets/images/500x300.png"
